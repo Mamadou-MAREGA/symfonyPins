@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+
 use App\Repository\PinsRepository;
 use Doctrine\ORM\Mapping as ORM;
 use ORM\Mapping\HasLifecycleCallBacks;
@@ -13,7 +14,8 @@ use App\Entity\Traits\Timestampable;
  */
 class Pins
 {
-    use \Timestampable;
+    use Timestampable;
+
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
@@ -31,15 +33,6 @@ class Pins
      */
     private $description;
 
-    /**
-     * @ORM\Column(type="datetime", options={"default": "CURRENT_TIMESTAMP"})
-     */
-    private $createdAt;
-
-    /**
-     * @ORM\Column(type="datetime", options={"default": "CURRENT_TIMESTAMP"})
-     */
-    private $updatedAt;
 
     public function getId(): ?int
     {
