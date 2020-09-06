@@ -11,9 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5f58f5-c03e-4fe2-9aa7-84301bce76a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/layouts/partials/_flash_message.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PinsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PinsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +164,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\projet\printerest\templates\layouts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -168,7 +177,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599146281886</updated>
-      <workItem from="1599146283089" duration="30327000" />
+      <workItem from="1599146283089" duration="31365000" />
     </task>
     <servers />
   </component>
