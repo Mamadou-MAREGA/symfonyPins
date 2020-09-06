@@ -11,9 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5f58f5-c03e-4fe2-9aa7-84301bce76a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/layouts/partials/_footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layouts/partials/_nav.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Pins.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Pins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layouts/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pins/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599146281886</updated>
-      <workItem from="1599146283089" duration="32379000" />
+      <workItem from="1599146283089" duration="35606000" />
     </task>
     <servers />
   </component>

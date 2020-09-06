@@ -15,7 +15,6 @@
     >
         Delete
     </a> |
-    <a href="{{ path('app_home') }}">Revenir à la page d'acceuil</a>
 
     <form id="js-pin_delete_form" action="{{ path('app_pins_delete', {id: pin.id}) }}" method="post" style="display: none;">
         <input type="hidden" name="csrf_token" value="{{ csrf_token('pin_delete' ~ pin.id) }}">

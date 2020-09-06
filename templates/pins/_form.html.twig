@@ -1,4 +1,6 @@
-{{ form_start(form) }}
+<div class="col-6 mx-auto">
+      {{ form_start(form) }}
       {{ form_widget(form) }}
-<input type="submit" value="{{ submitButtonText }}" formnovalidate>
-{{ form_end(form) }}
+      <input type="submit" value="{{ submitButtonText }}" class="btn btn-primary btn-block" formnovalidate>
+      {{ form_end(form) }}
+</div>
