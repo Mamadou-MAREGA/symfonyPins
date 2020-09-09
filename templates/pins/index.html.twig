@@ -20,7 +20,11 @@
                     </h2>
                    {# <p>{{ pin.description|u.truncate(10,'...', false) }}</p> #}
                     {#   <p>Submitted {{ pin.createdAt|ago }}</p> #}
-                    <p class="pl-3 pb-3 text-muted"><small> Submitted[OWNER FULL NAME]</small></p>
+                    <p class="pl-3 pb-3 text-muted">
+                        <small>
+                            Submitted {{ pin.user.fullName }}
+                        </small>
+                    </p>
                 </article>
             {% endfor %}
         </div>
