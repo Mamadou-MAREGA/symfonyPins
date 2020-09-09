@@ -11,8 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5f58f5-c03e-4fe2-9aa7-84301bce76a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/migrations/Version20200909102345.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +183,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599146281886</updated>
       <workItem from="1599146283089" duration="37346000" />
-      <workItem from="1599425489187" duration="19737000" />
+      <workItem from="1599425489187" duration="21457000" />
+      <workItem from="1599577032370" duration="5228000" />
     </task>
     <servers />
   </component>
@@ -215,6 +219,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="440" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1599425393173" />
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599646719550">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1599646719550" />
     <state x="517" y="307" key="NewPhpFileDialog" timestamp="1599242849477">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
