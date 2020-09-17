@@ -25,7 +25,9 @@
                 label: 'Password'
             }) }}
             {{ form_row(registrationForm.agreeTerms) }}
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Enregistrer</button>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" formnovalidate>
+                Enregistrer
+            </button>
             <p class="mt-5 mb-3 text-center text-muted">
                 Vous avez déjà un compte? <a href="{{ path('app_login') }}">Connecter-ici</a>
             </p>
