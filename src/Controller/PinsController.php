@@ -43,7 +43,7 @@ class PinsController extends AbstractController
             $entityManager->persist($pin);
             $entityManager->flush();
 
-            $this->addFlash("success", "Pin succefully created");
+            $this->addFlash("success", "Pin successfully created");
 
             return $this->redirectToRoute('app_home');
         }
@@ -55,6 +55,10 @@ class PinsController extends AbstractController
 
     /**
      * @Route("/pins/{id<[0-9]+>}/edit", name="app_pins_edit", methods={"GET", "PUT"})
+     * @param Pins $pin
+     * @param Request $request
+     * @param EntityManagerInterface $entityManager
+     * @return Response
      */
     public function edit(Pins $pin, Request $request, EntityManagerInterface $entityManager): Response
     {
@@ -80,6 +84,10 @@ class PinsController extends AbstractController
 
     /**
      * @Route("/pins/{id<[0-9]+>}/delete", name="app_pins_delete", methods="DELETE")
+     * @param Pins $pin
+     * @param EntityManagerInterface $entityManager
+     * @param Request $request
+     * @return Response
      */
 
     public function delete(Pins $pin, EntityManagerInterface $entityManager, Request $request): Response
@@ -97,6 +105,8 @@ class PinsController extends AbstractController
 
     /**
      * @Route("/pins/{id<[0-9]+>}", name="app_pins_show",  methods="GET")
+     * @param Pins $pin
+     * @return Response
      */
     public function show(Pins $pin): Response
     {
