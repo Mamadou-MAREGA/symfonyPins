@@ -18,6 +18,8 @@ class PinsController extends AbstractController
 {
     /**
      * @Route("/", name="app_home", methods="GET")
+     * @param PinsRepository $pinsRepository
+     * @return Response
      */
     public function index(PinsRepository $pinsRepository): Response
     {
@@ -27,6 +29,10 @@ class PinsController extends AbstractController
 
     /**
      * @Route("/pins/create", name="app_pins_create", methods="GET|POST")
+     * @param Request $request
+     * @param EntityManagerInterface $entityManager
+     * @param UserRepository $userRepository
+     * @return Response
      */
     public function create(Request $request, EntityManagerInterface $entityManager, UserRepository $userRepository): Response
     {

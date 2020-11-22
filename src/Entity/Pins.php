@@ -36,7 +36,7 @@ class Pins
     /**
      * @ORM\Column(type="text")
      *  @Assert\NotBlank(message="La description ne peut pas être vide")
-     * @Assert\Length(min=10, max=200, minMessage="Le champ doit avoir 10 caractères minumum",
+     * @Assert\Length(min=10, max=500, minMessage="Le champ doit avoir 10 caractères minumum",
      *     maxMessage="Le champ ne doit pas dépasser 200 caractères ")
      */
     private $description;
