@@ -7,6 +7,7 @@ use App\Repository\PinsRepository;
 use Doctrine\ORM\Mapping as ORM;
 use ORM\Mapping\HasLifecycleCallBacks;
 use App\Entity\Traits\Timestampable;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\HttpFoundation\File\File;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
@@ -93,7 +94,7 @@ class Pins
     }
 
     /**
-     * @param File|\Symfony\Component\HttpFoundation\File\UploadedFile|null $imageFile
+     * @param File|UploadedFile|null $imageFile
      */
     public function setImageFile(?File $imageFile = null): void
     {
