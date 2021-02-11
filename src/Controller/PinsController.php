@@ -89,7 +89,7 @@ class PinsController extends AbstractController
     }
 
     /**
-     * @Route("/pins/{id<[0-9]+>}/delete", name="app_pins_delete", methods="DELETE")
+     * @Route("/pins/{id<[0-9]+>}/delete", name="app_pins_delete", methods={"DELETE"})
      * @param Pins $pin
      * @param EntityManagerInterface $entityManager
      * @param Request $request
@@ -102,7 +102,7 @@ class PinsController extends AbstractController
         {
             $entityManager->remove($pin);
             $entityManager->flush();
-            $this->addFlash("info", "Pin succefully deleted");
+            $this->addFlash("info", "Pin successfully deleted");
         }
 
         return $this->redirectToRoute('app_home');

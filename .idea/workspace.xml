@@ -11,8 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5f58f5-c03e-4fe2-9aa7-84301bce76a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/uploads/pins/baya-axess-60253011d60a2491796866.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/pins/fond-602540bbcf95d492733693.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/pins/tomate-60253a84b9835142134569.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PinsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PinsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/PinType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PinType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +26,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,7 +183,7 @@
       <recent name="C:\Users\PC\Desktop\projet\printerest\templates\layouts" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -201,61 +204,42 @@
       <workItem from="1606062905919" duration="11535000" />
       <workItem from="1606316063208" duration="95000" />
       <workItem from="1607333210483" duration="131000" />
-      <workItem from="1608640977464" duration="3688000" />
+      <workItem from="1608640977464" duration="4620000" />
+      <workItem from="1608805545282" duration="17000" />
+      <workItem from="1613044982957" duration="8132000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="62" key="#Inspections" timestamp="1599489513615">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="309" y="62" key="#Inspections/0.0.1366.768@0.0.1366.768" timestamp="1599489513615" />
-    <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599425991118">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1599425991118" />
     <state x="440" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606061358200">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="440" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1606061358200" />
-    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599646719550">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1599646719550" />
-    <state x="517" y="307" key="NewPhpFileDialog" timestamp="1599242849477">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="517" y="307" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1599242849477" />
     <state x="184" y="29" key="SettingsEditor" timestamp="1607333267341">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1607333267341" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1607333239749">
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1608805553233">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1607333239749" />
-    <state x="475" y="242" key="scopes" timestamp="1599242761083">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="475" y="242" key="scopes/0.0.1366.768@0.0.1366.768" timestamp="1599242761083" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1608805553233" />
   </component>
 </project>
